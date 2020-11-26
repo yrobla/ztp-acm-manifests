@@ -3,6 +3,7 @@ kind: Kustomization
 
 resources:
   - 00_namespace.yaml
+  - 00_secret.yaml
   - 01_operatorgroup.yaml
   - 02_subscription.yaml
   - 03_hub.yaml

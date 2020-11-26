@@ -1,9 +1,18 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-
+generatorOptions:
+  disableNameSuffixHash: true
 resources:
   - 00_namespace.yaml
-  - 00_secret.yaml
   - 01_operatorgroup.yaml
   - 02_subscription.yaml
-  - 03_hub.yaml
+
+secretGenerator:
+- name: acm-secret
+  namespace: open-cluster-management
+  files:
+    - secret.json
+  type: kubernetes/dockerconfigjson
+
+
+

@@ -6,6 +6,7 @@ resources:
   - 00_namespace.yaml
   - 01_operatorgroup.yaml
   - 02_subscription.yaml
+  - 03_hub.yaml
 
 secretGenerator:
 - name: acm-secret

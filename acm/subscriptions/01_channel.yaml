@@ -6,4 +6,4 @@ metadata:
   namespace: acm-subscriptions
 spec:
   type: GitHub
-  pathname: https://github.com/redhat-ztp/ztp-ran-manifests.git
+  pathname: https://github.com/redhat-ztp/ztp-ran-manifests

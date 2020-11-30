@@ -1,0 +1,12 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: Subscription
+metadata:
+  name: spokes-subscription
+  namespace: acm-subscriptions
+  annotations:
+    apps.open-cluster-management.io/github-path: spokes_definitions
+    apps.open-cluster-management.io/github-branch: master
+spec:
+  channel: acm-subscriptions/acm-subscription 
+  placement:
+   local: true

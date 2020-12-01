@@ -3,6 +3,8 @@ kind: Subscription
 metadata:
   name: spokes-subscription
   namespace: acm-subscriptions
+  labels:
+    app: spokes-subscription
   annotations:
     apps.open-cluster-management.io/github-path: spokes_definitions
     apps.open-cluster-management.io/github-branch: master

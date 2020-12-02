@@ -6,9 +6,9 @@ metadata:
   labels:
     app: spokes-subscription
   annotations:
-    apps.open-cluster-management.io/github-path: spokes_definitions
-    apps.open-cluster-management.io/github-branch: master
+    apps.open-cluster-management.io/git-path: spoke_clusters
+    apps.open-cluster-management.io/git-branch: main
 spec:
   channel: acm-subscriptions/acm-subscription 
   placement:
-   local: true
+    local: true

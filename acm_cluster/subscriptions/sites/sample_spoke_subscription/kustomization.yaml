@@ -1,6 +1,4 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-resources:
-  - 01_channel.yaml
-  - 02_sample_spoke_subscription.yaml
-  - 03_sample_spoke_application.yaml
+bases:
+- ../../base/

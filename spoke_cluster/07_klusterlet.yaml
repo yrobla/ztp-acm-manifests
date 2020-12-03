@@ -1,9 +1,0 @@
-apiVersion: operator.open-cluster-management.io/v1
-kind: Klusterlet
-metadata:
-  name: klusterlet
-spec:
-  clusterName: sample-cu-cluster
-  namespace: open-cluster-management-agent
-  registrationImagePullSpec: registry.redhat.io/rhacm2/registration-rhel8@sha256:dd3a40cb1e724514c8f9044a7648a43a5fa681bebecdcd1e2d0eedacfbd6aa61
-  workImagePullSpec: registry.redhat.io/rhacm2/work-rhel8@sha256:d86cf321bf80b952cf456dac0f9ee4410473378f1750365c7659c0631445e064

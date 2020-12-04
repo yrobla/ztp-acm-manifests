@@ -6,7 +6,7 @@ metadata:
   labels:
     app: ran-subscription
   annotations:
-    apps.open-cluster-management.io/git-path: manifests
+    apps.open-cluster-management.io/git-path: manifests/base
     apps.open-cluster-management.io/git-branch: main
 spec:
   channel: ran-subscriptions/ran-subscription 

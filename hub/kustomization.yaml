@@ -15,6 +15,3 @@ secretGenerator:
     files:
     - secret.json
     type: kubernetes/dockerconfigjson
-
-
-

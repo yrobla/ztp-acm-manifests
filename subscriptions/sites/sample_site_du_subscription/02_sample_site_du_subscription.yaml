@@ -9,6 +9,6 @@ metadata:
     apps.open-cluster-management.io/git-path: manifests/sites/sample_site_du
     apps.open-cluster-management.io/git-branch: main
 spec:
-  channel: sample-site-du-subscriptions/sample-site-du-subscription 
+  channel: sample-site-du-subscription/sample-site-du-subscription 
   placement:
     local: true

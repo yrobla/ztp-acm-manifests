@@ -2,7 +2,7 @@
 apiVersion: apps.open-cluster-management.io/v1
 kind: Channel
 metadata:
-  name: samples-site-du-subscription
+  name: sample-site-du-subscription
   namespace: sample-site-du-subscription
 spec:
   type: GitHub

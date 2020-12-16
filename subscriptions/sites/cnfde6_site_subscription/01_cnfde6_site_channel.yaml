@@ -1,0 +1,9 @@
+---
+apiVersion: apps.open-cluster-management.io/v1
+kind: Channel
+metadata:
+  name: cnfde6-site-subscription
+  namespace: cnfde6-site-subscription
+spec:
+  type: GitHub
+  pathname: https://github.com/redhat-ztp/ztp-ran-manifests

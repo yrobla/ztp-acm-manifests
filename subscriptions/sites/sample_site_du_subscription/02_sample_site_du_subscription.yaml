@@ -6,7 +6,7 @@ metadata:
   labels:
     app: sample-site-du-subscription
   annotations:
-    apps.open-cluster-management.io/git-path: manifests/sites/sample_site_du
+    apps.open-cluster-management.io/git-path: manifests/sites/sample-site-du
     apps.open-cluster-management.io/git-branch: main
 spec:
   channel: sample-site-du-subscription/sample-site-du-subscription 

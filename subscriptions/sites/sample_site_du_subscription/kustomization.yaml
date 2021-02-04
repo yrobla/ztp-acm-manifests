@@ -1,7 +1,7 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-- 00_sample_site_du_namespace.yaml
-- 01_sample_site_du_channel.yaml
-- 02_sample_site_du_subscription.yaml
-- 03_sample_site_du_application.yaml
+- 00_namespace.yaml
+- 01_channel.yaml
+- 02_subscription.yaml
+- 03_application.yaml

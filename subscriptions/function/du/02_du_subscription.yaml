@@ -7,7 +7,7 @@ metadata:
     app: du-subscription
   annotations:
     apps.open-cluster-management.io/git-path: manifests/function/du
-    apps.open-cluster-management.io/git-branch: main
+    apps.open-cluster-management.io/git-branch: stable/4.7
 spec:
   channel: du-subscriptions/du-subscription 
   placement:

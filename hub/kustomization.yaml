@@ -13,5 +13,5 @@ secretGenerator:
   - name: acm-secret
     namespace: open-cluster-management
     files:
-    - secret.json
-    type: kubernetes/dockerconfigjson
+    - .dockerconfigjson=secret.json
+    type: kubernetes.io/dockerconfigjson

@@ -1,0 +1,14 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: Subscription
+metadata:
+  name: common-ran-subscription
+  namespace: common-ran-subscriptions
+  labels:
+    app: common-ran-subscription
+  annotations:
+    apps.open-cluster-management.io/git-path: manifests/common
+    apps.open-cluster-management.io/git-branch: main
+spec:
+  channel: common-ran-subscriptions/common-ran-subscription 
+  placement:
+    local: true

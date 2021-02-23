@@ -1,8 +1,8 @@
 apiVersion: app.k8s.io/v1beta1
 kind: Application
 metadata:
-  name: sample-site-cu-subscription
-  namespace: sample-site-cu-subscription
+  name: common-ran-subscription
+  namespace: common-ran-subscriptions
 spec:
   componentKinds:
     - group: apps.open-cluster-management.io
@@ -13,4 +13,4 @@ spec:
       - key: app
         operator: In
         values:
-          - sample-site-cu-subscription
+          - common-ran-subscription

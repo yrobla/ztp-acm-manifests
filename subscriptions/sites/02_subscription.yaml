@@ -1,0 +1,14 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: Subscription
+metadata:
+  name: sites-ran-subscription
+  namespace: sites-ran-subscriptions
+  labels:
+    app: sites-ran-subscription
+  annotations:
+    apps.open-cluster-management.io/git-path: manifests/sites
+    apps.open-cluster-management.io/git-branch: main
+spec:
+  channel: sites-ran-subscriptions/sites-ran-subscription 
+  placement:
+    local: true

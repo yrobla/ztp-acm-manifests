@@ -2,4 +2,4 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: sample-site-cu-subscription
+  name: profile-ran-subscriptions

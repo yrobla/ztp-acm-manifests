@@ -3,5 +3,5 @@ kind: Kustomization
 resources:
   - 00_namespace.yaml
   - 01_channel.yaml
-  - 02_ran_subscription.yaml
-  - 03_ran_application.yaml
+  - 02_subscription.yaml
+  - 03_application.yaml

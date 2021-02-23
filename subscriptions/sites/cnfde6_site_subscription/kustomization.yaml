@@ -1,7 +1,0 @@
-apiVersion: kustomize.config.k8s.io/v1beta1
-kind: Kustomization
-resources:
-- 00_cnfde6_site_namespace.yaml
-- 01_cnfde6_site_channel.yaml
-- 02_cnfde6_site_subscription.yaml
-- 03_cnfde6_site_application.yaml

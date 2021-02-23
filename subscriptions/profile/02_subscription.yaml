@@ -1,0 +1,14 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: Subscription
+metadata:
+  name: profile-ran-subscription
+  namespace: profile-ran-subscriptions
+  labels:
+    app: profile-ran-subscription
+  annotations:
+    apps.open-cluster-management.io/git-path: manifests/profile
+    apps.open-cluster-management.io/git-branch: main
+spec:
+  channel: profile-ran-subscriptions/profile-ran-subscription 
+  placement:
+    local: true

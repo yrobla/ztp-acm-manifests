@@ -6,4 +6,4 @@ metadata:
   namespace: profile-ran-subscriptions
 spec:
   type: GitHub
-  pathname: github.com/yrobla/ztp-ran-manifests
+  pathname: https://github.com/yrobla/ztp-ran-manifests
